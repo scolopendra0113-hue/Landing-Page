@@ -44,6 +44,7 @@ p {
     display: flex;
     
     font-size: 18px;
+    gap: 20px;
     
 }
 
@@ -92,7 +93,7 @@ p {
     color: #E5E7EB;
 }
 
-.btn-hero {
+.btn {
     font-size: 18px;
     font-weight: bold;
     color: #E5E7EB;
@@ -113,4 +114,110 @@ p {
 .hero-img {
     height: 230px;
     width: 600px;
+}
+
+/*Section's carts*/
+
+.carts-title {
+    text-align: center;
+
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+    padding-top: 50px;
+}
+
+.img-cart {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 20px;
+    border: 4px solid #3882F6;
+
+}
+
+.cart-text {
+    width: 200px;
+    text-align: center;
+
+    font-size: 18px;
+}
+
+.carts {
+    display: flex;
+
+    width: 1000px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    gap: 40px;
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/*Quote*/
+
+.section-quote {
+    background-color: #E5E7EB;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-quote {
+    width: 890px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.cite {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+
+    text-align: right;
+    margin-right: 100px;
+}
+
+/*Sign*/
+
+.section-sign {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-sign {
+    display: flex;
+    justify-content:space-around;
+    background-color: #3882F6;
+    border-radius: 10px;
+
+    padding: 50px 50px
+}
+
+.sign-info {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.btn-sign {
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+
+    padding: 50px 50px;
+
+    text-align: center;
+
+    color: #E5E7EB;
+    font-size: 32px;
 }
